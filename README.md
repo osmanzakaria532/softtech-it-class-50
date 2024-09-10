@@ -21,3 +21,10 @@ Create a new theme :
 - uploading theme with zip file must have valid theme heade for style.css stylesheet
 
 ---
+
+**Codex** is an extensive online documentation resource. For example: codex.wordpress.org
+
+> - main page is codex.wordpress.org
+
+    - function reference
+    - class reference
