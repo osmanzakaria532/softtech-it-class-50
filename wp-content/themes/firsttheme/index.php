@@ -3,13 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php bloginfo()?></title>
+        <!-- <title><?php bloginfo()?></title> -->
+
+        <!-- dynamic title add process  -->
+        <?php wp_head() ?>
     </head>
     <body>
 
         <h1>welcome to our website</h1>
 
-        <nav>
+        <!-- <nav>
             <?php
                 // show the menu in frontend
                 wp_nav_menu(
@@ -19,10 +22,10 @@
                     )
                 );
             ?>
-        </nav>
+        </nav> -->
 
 
-        <footer>
+        <!-- <footer>
             <?php
                 // show the menu in frontend
                 wp_nav_menu(
@@ -33,7 +36,10 @@
                 );
             ?>
 
-        </footer>
+        </footer> -->
         
+        <?php wp_footer(); ?>
     </body>
 </html>
+
+
