@@ -57,3 +57,11 @@ includes files
 loop use-case
 
 ---
+
+> - dashboard
+>   usename : osmanzakaria
+>   password : osman#123
+
+> - database
+
+databaseName : ourfirsttheme
