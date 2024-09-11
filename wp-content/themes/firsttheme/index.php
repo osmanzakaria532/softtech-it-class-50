@@ -7,10 +7,22 @@
 
         <!-- dynamic title add process  -->
         <?php wp_head() ?>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .banner-area img {
+                width: 600px;
+                margin: 0 auto;
+            }
+        </style>
     </head>
     <body>
 
         <h1>welcome to our website</h1>
+
+        <div class="banner-area">
+            <!-- <img src="<?php echo get_template_directory_urI() ?>/images/banner.jpg" alt=""> -->
+            <img src="<?php header_image() ?>" alt="">
+        </div>
 
         <!-- <nav>
             <?php
