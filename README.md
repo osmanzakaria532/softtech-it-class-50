@@ -45,3 +45,11 @@ header image added
 background image
 
 ---
+
+includes files
+
+-header.php
+-footer.php
+-content.php
+
+---
