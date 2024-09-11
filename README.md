@@ -48,8 +48,8 @@ background image
 
 includes files
 
--header.php
--footer.php
--content.php
+- header.php
+- footer.php
+- content.php
 
 ---
