@@ -58,9 +58,10 @@ loop use-case
 
 ---
 
-> - dashboard
->   username : osmanzakaria
->   password : osman#123
+> -- dashboard
+>
+> - username : osmanzakaria
+> - password : osman@123
 
 > - database
 
