@@ -10,7 +10,7 @@
         echo "<br />";
 
         // the_post_thumbnail();
-        echo get_the_post_thumbnail();
+        echothe_post_thumbnail();
 
         // echo get_the_content();
         the_content();

@@ -53,3 +53,7 @@ includes files
 - content.php
 
 ---
+
+loop use-case
+
+---
