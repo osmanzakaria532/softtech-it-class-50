@@ -15,7 +15,7 @@
             }
         </style>
     </head>
-    <body>
+    <body <?php body_class(); ?>>
 
         <h1>welcome to our website</h1>
 

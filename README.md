@@ -35,3 +35,13 @@ Hook > Action hook and Filter hook
 
 - action hook work after any things. for example " add_action('hook_name', 'callback_function') ".
 - filter hook modify or replace running action. for example " modify > add_filter('hook_name', 'callback_function') ot replace > add_action('hook_name', 'function(){ .= }') "
+
+---
+
+header image added
+
+---
+
+background image
+
+---
