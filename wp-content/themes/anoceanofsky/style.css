@@ -22,7 +22,11 @@ body {
   height: auto;
   position: relative;
   overflow: hidden;
-  width: 670px;
+  width: 729px;
+}
+
+#page .topNaviagationLink {
+  list-style-type: none;
 }
 
 .topNaviagationLink {
@@ -45,13 +49,18 @@ body {
   color: #cde2fc;
 }
 
-.topNaviagationLink a:hover {
+.topNaviagationLink.current-menu-item a {
+  color: #000;
+}
+
+.topNaviagationLink a:hover,
+.topNaviagationLink.current-menu-item {
   color: #0c61c9;
   display: block;
   width: 121px;
   height: 35px;
   line-height: 35px;
-  background-image: url(images/tab.png);
+  background-image: url(https://osmanzakaria532.github.io/softtech-it-class-50/wp-content/themes/anoceanofsky/images/tab.png);
 }
 
 #mainPicture {
@@ -106,7 +115,7 @@ body {
   width: 650px;
   height: auto;
   top: 10px;
-  background-image: url(images/content_back.png);
+  background-image: url(https://osmanzakaria532.github.io/softtech-it-class-50/wp-content/themes/anoceanofsky/images/content_back.png);
   background-repeat: repeat-x;
   padding-bottom: 35px;
 }
@@ -129,7 +138,8 @@ body {
 #footer {
   width: 670px;
   height: 16px;
-  background: url(images/footer.png) no-repeat;
+  background: url(https://osmanzakaria532.github.io/softtech-it-class-50/wp-content/themes/anoceanofsky/images/footer.png)
+    no-repeat;
   text-align: center;
   font-size: 9px;
   font-family: Arial, Helvetica, sans-serif;
